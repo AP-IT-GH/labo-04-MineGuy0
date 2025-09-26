@@ -1,0 +1,27 @@
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #333;
+  background-color: #f0f0f0;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:nth-child(2):hover {
+  background-color: #00eaff;
+  box-shadow: 2px 2px 2px black;
+  color: red;
+  border: 5px solid red;
+}
+
+button:nth-child(3):active {
+  background-color: #003b9b;
+  color: white;
+  transform: translateY(2px);
+}
+
+button:nth-child(4):focus {
+  background-color: #00b54f;
+  outline: 5px solid #00eaff;
+}
