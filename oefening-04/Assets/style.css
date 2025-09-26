@@ -1,0 +1,42 @@
+th {
+  background-color: black;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+table,
+th,
+tr {
+  margin: 0;
+  padding: 10px;
+  align-content: center;
+  text-align: center;
+}
+
+#webtechnologie {
+  background-color: red;
+  color: white;
+}
+
+#databases {
+  background-color: blue;
+  color: white;
+}
+
+#organ {
+  background-color: red;
+  color: white;
+}
+#ITEssentials {
+  background-color: blueviolet;
+  color: white;
+}
+
+td,
+th {
+  min-width: 120px;
+}

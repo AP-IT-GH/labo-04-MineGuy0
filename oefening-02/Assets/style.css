@@ -1,3 +1,17 @@
+ol {
+  list-style: decimal;
+  margin-left: 20px;
+}
+
+li {
+  display: list-item;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
 li:nth-child(even) {
   color: black;
 }
