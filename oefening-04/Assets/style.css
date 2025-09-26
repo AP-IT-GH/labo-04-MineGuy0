@@ -1,6 +1,7 @@
 th {
   background-color: black;
   color: white;
+  font-weight: bold;
 }
 
 table {
@@ -12,9 +13,14 @@ table,
 th,
 tr {
   margin: 0;
-  padding: 10px;
+  padding: 0px;
   align-content: center;
   text-align: center;
+}
+
+th,
+td {
+  padding: 10px;
 }
 
 #webtechnologie {
@@ -28,13 +34,15 @@ tr {
 }
 
 #organ {
-  background-color: red;
+  background-color: rgb(255, 193, 203);
   color: white;
 }
 #ITEssentials {
   background-color: blueviolet;
   color: white;
 }
+
+
 
 td,
 th {
