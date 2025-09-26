@@ -24,6 +24,10 @@ td {
   padding: 10px;
 }
 
+td::first-letter {
+  text-transform: uppercase;
+}
+
 table caption {
   text-align: center;
   vertical-align: center;
